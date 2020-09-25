@@ -1,12 +1,20 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        
-      </div>
-    )
-  }
+function App() {
+  return (
+    <div className="grid-container">
+      <header>
+        <a href="/">React Shoping Cart</a>
+      </header>
+      <main>
+        Product List
+      </main>
+      <footer>
+        All right is reserved
+      </footer>
+    </div>
+  )
 }
+
+export default App;
 
